@@ -43,7 +43,7 @@ For media inquiries and press releases:
 
 ## Send Us a Message
 
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form class="contact-form" action="#" method="POST" onsubmit="alert('Form submission not yet configured. Please update the action URL in contact.md'); return false;">
   <div class="form-group">
     <label for="name">Name *</label>
     <input type="text" id="name" name="name" required>
@@ -66,45 +66,6 @@ For media inquiries and press releases:
   
   <button type="submit" class="btn btn-primary">Send Message</button>
 </form>
-
-<style>
-.contact-form {
-  max-width: 600px;
-  margin: 2rem auto;
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  color: var(--text-color);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
-  font-family: inherit;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
-
-.contact-form .btn {
-  width: 100%;
-}
-</style>
 
 ## Office Location
 
