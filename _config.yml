@@ -1,0 +1,52 @@
+title: EduGrid
+description: Renewable Energy Education Project
+baseurl: ""
+url: "https://edu-grid.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Project
+    url: /project
+  - title: Partners
+    url: /partners
+  - title: News
+    url: /news
+  - title: Contact
+    url: /contact
+
+# Footer
+footer_text: © 2024 EduGrid Project. All rights reserved.
+
+# Social links (to be updated with actual links)
+social_links:
+  twitter: edugrid
+  linkedin: edugrid
+  github: edu-grid
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - replication_tasks.json

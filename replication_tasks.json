@@ -1,0 +1,104 @@
+{
+  "project": "EduGrid Website Replication",
+  "description": "Track progress of replicating EduGrid renewable energy education project website",
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Setup Jekyll Configuration",
+      "category": "infrastructure",
+      "files": ["_config.yml", "Gemfile", ".gitignore"],
+      "status": "completed",
+      "notes": "Create basic Jekyll configuration and dependencies"
+    },
+    {
+      "id": 2,
+      "name": "Create Homepage",
+      "category": "content",
+      "files": ["index.md"],
+      "status": "completed",
+      "notes": "Main landing page with project overview"
+    },
+    {
+      "id": 3,
+      "name": "Create About Page",
+      "category": "content",
+      "files": ["about.md"],
+      "status": "completed",
+      "notes": "Information about the EduGrid project"
+    },
+    {
+      "id": 4,
+      "name": "Create Project Description",
+      "category": "content",
+      "files": ["project.md"],
+      "status": "completed",
+      "notes": "Detailed project description and objectives"
+    },
+    {
+      "id": 5,
+      "name": "Create Partners/Team Page",
+      "category": "content",
+      "files": ["partners.md"],
+      "status": "completed",
+      "notes": "List of project partners and team members"
+    },
+    {
+      "id": 6,
+      "name": "Create News Section",
+      "category": "content",
+      "files": ["news.md", "_posts/"],
+      "status": "completed",
+      "notes": "Blog/news section with updates"
+    },
+    {
+      "id": 7,
+      "name": "Create Contact Page",
+      "category": "content",
+      "files": ["contact.md"],
+      "status": "completed",
+      "notes": "Contact information and form"
+    },
+    {
+      "id": 8,
+      "name": "Create Layout Templates",
+      "category": "styling",
+      "files": ["_layouts/default.html", "_layouts/page.html", "_layouts/post.html"],
+      "status": "completed",
+      "notes": "HTML layout templates for different page types"
+    },
+    {
+      "id": 9,
+      "name": "Create Navigation Component",
+      "category": "styling",
+      "files": ["_includes/header.html", "_includes/footer.html", "_includes/nav.html"],
+      "status": "completed",
+      "notes": "Header, footer, and navigation includes"
+    },
+    {
+      "id": 10,
+      "name": "Setup CSS/Styling",
+      "category": "styling",
+      "files": ["assets/css/main.css", "assets/css/style.scss"],
+      "status": "completed",
+      "notes": "Stylesheet for site design"
+    },
+    {
+      "id": 11,
+      "name": "Add Images and Assets",
+      "category": "assets",
+      "files": ["assets/images/"],
+      "status": "pending",
+      "notes": "Download and organize all images from original site"
+    },
+    {
+      "id": 12,
+      "name": "Add Favicon and Meta Tags",
+      "category": "assets",
+      "files": ["assets/favicon.ico", "_includes/head.html"],
+      "status": "pending",
+      "notes": "Favicon and SEO meta tags"
+    }
+  ],
+  "website_url": "https://edu-grid.github.io or https://edugrid.eu",
+  "notes": "Website content needs to be provided or scraped. Currently unable to access the live site."
+}
