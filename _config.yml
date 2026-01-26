@@ -43,10 +43,12 @@ navigation:
     url: /
   - title: About
     url: /about
-  - title: Team
-    url: /team
-  - title: Resources
-    url: /resources
+  - title: Teaching Kits
+    url: /teaching-kits
+  - title: For Students
+    url: /for-students
+  - title: For Teachers
+    url: /for-teachers
   - title: Contact
     url: /contact
 
