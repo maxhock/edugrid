@@ -1,0 +1,65 @@
+title: EduGrid
+description: Renewable Energy Education Project
+baseurl: ""
+url: "https://maxhock.github.io/edu-grid.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  team:
+    output: true
+    permalink: /team/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team_member"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Teaching Kits
+    url: /teaching-kits
+  - title: For Students
+    url: /for-students
+  - title: For Teachers
+    url: /for-teachers
+  - title: Contact
+    url: /contact
+
+# Site settings
+email: contact@edu-grid.org
+github_username: maxhock
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - tasks.json
