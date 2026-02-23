@@ -15,7 +15,7 @@ permalink: /wind-energy/
 <div class="accordion-header" data-expanded="true">
 <span class="accordion-icon">▼</span> 👋 Welcome
 </div>
-<div class="accordion-body">
+<div class="accordion-body" markdown="1">
 
 ### Welcome to the Wind Learning Adventure!
 
@@ -57,7 +57,7 @@ By the end of this workbook, you'll have a solid understanding of wind energy an
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 💨 Why Wind Matters
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 Wind energy harnesses the power of the wind to generate electricity, making use of wind turbines to capture the wind's kinetic energy and convert it into usable power.
 
@@ -82,7 +82,7 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📘 Key Wind Energy Terms
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *You can skim or skip this section if you already know these terms.*
 
@@ -113,7 +113,7 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 🔧 What Is Needed
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🧰 Additional Materials for Experiments
 
@@ -166,7 +166,7 @@ A multimeter is a handy tool that can measure electrical quantities like **volta
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 1 — Wind Basics
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Learn about energy, wind energy and the wind atlas.*
 
@@ -260,7 +260,7 @@ Split into groups of 4–5. Each group represents one role:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 2 — Measuring and Working with Wind Speed
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Learn about wind speed, power and their impact on energy generation.*
 
@@ -353,7 +353,7 @@ Fill in the blanks:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 3 — Airfoils
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Learn about how blade shape creates lift and drives wind turbines.*
 
@@ -426,7 +426,7 @@ In this chapter you will:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 4 — Experiments with a Wind Turbine
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Explore how wind direction, blade design, and turbine settings affect power output.*
 

@@ -11,7 +11,7 @@ permalink: /hydro-energy-study-page/
 <div class="accordion-header" data-expanded="true">
 <span class="accordion-icon">▼</span> 👋 Welcome
 </div>
-<div class="accordion-body">
+<div class="accordion-body" markdown="1">
 
 ### Welcome to the Hydro Learning Adventure!
 
@@ -53,7 +53,7 @@ By the end of this workbook, you'll understand how hydropower works and why it's
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📘 Key Hydropower Terms
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Use this glossary to understand important terms you'll encounter throughout your hydro learning journey.*
 
@@ -81,7 +81,7 @@ By the end of this workbook, you'll understand how hydropower works and why it's
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 🌊 Why is Hydropower Important?
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 Hydropower plays a key role in today's energy system because it is **renewable**, **reliable**, and **climate-friendly**.
 
@@ -100,7 +100,7 @@ Hydropower plays a key role in today's energy system because it is **renewable**
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 🔧 What Is Needed
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🧰 Materials for Experiments
 
@@ -125,7 +125,7 @@ Hydropower plays a key role in today's energy system because it is **renewable**
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 1 — Hydro Basics
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *🌊 Basics – Wonders of Moving Water*
 
@@ -213,7 +213,7 @@ Look at two zones (Zone A and B) on the map provided. Answer:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 2 — Water Wheels
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🎯 Learning Objectives
 
@@ -260,7 +260,7 @@ Which type of water wheel would work best near your school or community? Justify
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 3 — Modern Turbines
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🎯 Learning Objectives
 
@@ -310,7 +310,7 @@ For each scenario below, decide which turbine type is most appropriate:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 4 — Hydro Energy & the Grid
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🎯 Learning Objectives
 

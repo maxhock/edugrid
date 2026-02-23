@@ -266,18 +266,18 @@ table tbody > tr:nth-child(odd) > td {
 }
 
 .page-hero-img {
-    flex: 0 0 42%;
-    max-width: 42%;
+    flex: 0 0 auto;
 }
 
 .page-hero-img img {
     width: 100%;
+    max-width: 420px;
     height: 300px;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 28px rgba(67, 125, 200, 0.15);
     display: block;
     max-height: none !important;
-    max-width: none !important;
     margin: 0 !important;
 }
 

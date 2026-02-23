@@ -11,7 +11,7 @@ permalink: /solar-student-workbook/
 <div class="accordion-header" data-expanded="true">
 <span class="accordion-icon">▼</span> 👋 Welcome
 </div>
-<div class="accordion-body">
+<div class="accordion-body" markdown="1">
 
 ### Welcome to the Solar Learning Adventure!
 
@@ -48,7 +48,7 @@ This workbook combines explanations, hands-on measurements, and activities to he
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📘 Key Solar Energy Terms
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Use this glossary to understand important terms you'll encounter throughout your solar learning journey.*
 
@@ -75,7 +75,7 @@ This workbook combines explanations, hands-on measurements, and activities to he
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> ☀️ Why Solar Matters
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 Solar energy is transforming electricity production worldwide. Here is why it matters:
 
@@ -99,7 +99,7 @@ West Africa has some of the highest solar irradiance in the world. Ghana receive
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 🔧 What Is Needed
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 ### 🧰 Materials for Experiments
 
@@ -129,7 +129,7 @@ West Africa has some of the highest solar irradiance in the world. Ghana receive
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 1 — PV Basics
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Chapter 1.1 from the EduGrid PV Education HUB*
 
@@ -192,7 +192,7 @@ Fill in the table:
 <div class="accordion-header">
 <span class="accordion-icon">▶</span> 📝 Chapter 2 — Connecting PV to a Load & MPP
 </div>
-<div class="accordion-body" style="display:none">
+<div class="accordion-body" style="display:none" markdown="1">
 
 *Chapter 1.2 from the EduGrid PV Education HUB*
 
