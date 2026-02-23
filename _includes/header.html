@@ -1,7 +1,9 @@
 <header class="site-header">
     <div class="container">
         <div class="header-content">
-            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+            <a href="{{ '/' | relative_url }}" class="site-logo-link">
+                <img src="{{ '/assets/images/logo-white.svg' | relative_url }}" alt="{{ site.title }}" class="site-logo">
+            </a>
             <nav class="site-nav">
                 {% for item in site.navigation %}
                 <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>

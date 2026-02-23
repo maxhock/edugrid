@@ -16,24 +16,22 @@ We are excited to support you in bringing hands-on hydro energy education into y
 
 Collect all materials needed to build the Hydro Energy Teaching Kit.
 
-- 🔗 [View Bill of Materials on Thingiverse](https://www.thingiverse.com/)
-- 🔗 [View Generator on Thingiverse](https://www.thingiverse.com/)
+- 🔗 [View Bill of Materials on Thingiverse](https://www.thingiverse.com/thing:7093144)
+- 🔗 [View Generator on Thingiverse](https://www.thingiverse.com/thing:7093141)
 
 ---
 
 ### 🛠️ Step 2: Assembling the Kit
 
-If all components are available, proceed with the assembly using these instructions:
-
-- 🔗 [Assembly Instructions on Instructables](https://www.instructables.com/)
+If all components are available, proceed with the assembly. Please refer to the Teacher Workbook for detailed assembly instructions.
 
 ---
 
 ### 🧰 Step 3: Supporting Tools
 
-Gather basic classroom tools required for the experiments. Please refer to the Teacher Workbook and review the section "What is needed for this?" to complete setup:
+Gather basic classroom tools required for the experiments. Please refer to the student workbook and review the section "What is needed" to complete setup:
 
-- 🔗 Open Section: What is needed for this? (see Teacher Workbook)
+- 🔗 [Open Section: What is needed](/hydro-energy-study-page/)
 
 ---
 
@@ -41,9 +39,7 @@ Gather basic classroom tools required for the experiments. Please refer to the T
 
 This document introduces hydro energy concepts and provides solution-guided instructions for teachers.
 
-Choose your preferred language:
-
-- Teacher Workbook
+- 📄 [Teacher Workbook (PPTX)](https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Workbook_Hydro.pptx)
 
 ---
 
@@ -51,7 +47,7 @@ Choose your preferred language:
 
 Download the PowerPoint slides prepared for in-class use:
 
-- 🔗 Download Classroom PowerPoint
+- 🔗 [Download Classroom Presentation (PPTX)](https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Presentation_Hydro.pptx)
 
 ---
 
@@ -61,4 +57,4 @@ Each student should receive a personal workbook (print or digital):
 
 **Student Worksheets** — Students should use these worksheets during the lesson to take notes and solve exercises.
 
-- 📄 Student Worksheet (PDF)
+- 📄 [Student Worksheet (PDF)](https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_Hydro.pdf)

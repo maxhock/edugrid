@@ -3,14 +3,19 @@ layout: page
 title: Student Wind Worksheet
 permalink: /wind-energy/
 ---
-
 ## Wind Learning Adventure
 
 **Chapters:** 👋 Welcome · 📘 Introduction · 🧠 Definitions · 🌍 Why wind matters · 🔧 What is needed · 📝 Exercises (Ch 1–4) · 💬 Give Feedback
 
 ---
 
-## 👋 Welcome
+<div class="accordion-page">
+
+<div class="accordion-item">
+<div class="accordion-header" data-expanded="true">
+<span class="accordion-icon">▼</span> 👋 Welcome
+</div>
+<div class="accordion-body">
 
 ### Welcome to the Wind Learning Adventure!
 
@@ -45,7 +50,14 @@ By the end of this workbook, you'll have a solid understanding of wind energy an
 
 ---
 
-## 💨 Why Wind Matters
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 💨 Why Wind Matters
+</div>
+<div class="accordion-body" style="display:none">
 
 Wind energy harnesses the power of the wind to generate electricity, making use of wind turbines to capture the wind's kinetic energy and convert it into usable power.
 
@@ -63,7 +75,14 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 
 ---
 
-## 📘 Key Wind Energy Terms
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📘 Key Wind Energy Terms
+</div>
+<div class="accordion-body" style="display:none">
 
 *You can skim or skip this section if you already know these terms.*
 
@@ -87,7 +106,14 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 
 ---
 
-## 🔧 What Is Needed
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 🔧 What Is Needed
+</div>
+<div class="accordion-body" style="display:none">
 
 ### 🧰 Additional Materials for Experiments
 
@@ -133,7 +159,14 @@ A multimeter is a handy tool that can measure electrical quantities like **volta
 
 ---
 
-## 📝 Chapter 1 — Wind Basics
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📝 Chapter 1 — Wind Basics
+</div>
+<div class="accordion-body" style="display:none">
 
 *Learn about energy, wind energy and the wind atlas.*
 
@@ -220,7 +253,14 @@ Split into groups of 4–5. Each group represents one role:
 
 ---
 
-## 📝 Chapter 2 — Measuring and Working with Wind Speed
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📝 Chapter 2 — Measuring and Working with Wind Speed
+</div>
+<div class="accordion-body" style="display:none">
 
 *Learn about wind speed, power and their impact on energy generation.*
 
@@ -306,7 +346,14 @@ Fill in the blanks:
 
 ---
 
-## 📝 Chapter 3 — Airfoils
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📝 Chapter 3 — Airfoils
+</div>
+<div class="accordion-body" style="display:none">
 
 *Learn about how blade shape creates lift and drives wind turbines.*
 
@@ -372,7 +419,14 @@ In this chapter you will:
 
 ---
 
-## 📝 Chapter 4 — Experiments with a Wind Turbine
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📝 Chapter 4 — Experiments with a Wind Turbine
+</div>
+<div class="accordion-body" style="display:none">
 
 *Explore how wind direction, blade design, and turbine settings affect power output.*
 
@@ -436,5 +490,36 @@ Since we know the wind turbine must face directly into the wind, and wind change
 ---
 
 > 💬 **Give Feedback** — Share your experience with this workbook via the [contact form](/contact/).
+
+</div>
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.accordion-header').forEach(function(header) {
+    header.addEventListener('click', function() {
+      var body = this.nextElementSibling;
+      var icon = this.querySelector('.accordion-icon');
+      var isHidden = body.style.display === 'none';
+
+      // Close all
+      document.querySelectorAll('.accordion-item').forEach(function(item) {
+        item.querySelector('.accordion-body').style.display = 'none';
+        item.querySelector('.accordion-icon').textContent = '▶';
+        item.querySelector('.accordion-header').removeAttribute('data-expanded');
+      });
+
+      // Open clicked (if it was closed)
+      if (isHidden) {
+        body.style.display = '';
+        icon.textContent = '▼';
+        this.setAttribute('data-expanded', 'true');
+      }
+    });
+  });
+});
+</script>
 
 [← Back to Student Wind Landing](/student-wind-landing/)

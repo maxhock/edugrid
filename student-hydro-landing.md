@@ -22,7 +22,7 @@ You will work with the **Hydro Teaching Kit** and complete fun, hands-on activit
 
 Access your Student Workbook to follow along during the lesson. It includes activities, explanations, and space for your answers and observations.
 
-*Student workbook coming soon — check back here for your learning journey!*
+[Start your Hydro Learning Adventure →](/hydro-energy-study-page/)
 
 ---
 

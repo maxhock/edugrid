@@ -750,3 +750,211 @@ table tbody > tr:nth-child(odd) > td {
         height: 240px;
     }
 }
+
+/* =========================================
+   LOGO IN HEADER
+   ========================================= */
+.site-logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.site-logo {
+    height: 42px;
+    width: auto;
+    display: block;
+    filter: brightness(1);
+}
+
+.site-logo:hover {
+    opacity: 0.9;
+}
+
+/* =========================================
+   ACCORDION (details/summary)
+   Used for student workbook pages
+   ========================================= */
+.accordion-page {
+    margin: 1.5rem 0;
+}
+
+.accordion-section {
+    border: 1px solid var(--color-bg-mid);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+}
+
+.accordion-section[open] {
+    box-shadow: 0 4px 16px rgba(67, 125, 200, 0.12);
+    border-color: var(--color-accent);
+}
+
+.accordion-section > summary {
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-secondary);
+    background: var(--color-bg-light);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+.accordion-section > summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion-section > summary::before {
+    content: '▶';
+    font-size: 0.7rem;
+    color: var(--color-primary);
+    transition: transform 0.25s;
+    flex-shrink: 0;
+}
+
+.accordion-section[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.accordion-section > summary:hover {
+    background: #e8f0fb;
+    color: var(--color-primary);
+}
+
+.accordion-section[open] > summary {
+    background: linear-gradient(130deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    color: white;
+}
+
+.accordion-section[open] > summary::before {
+    color: white;
+}
+
+.accordion-section[open] > summary:hover {
+    opacity: 0.95;
+}
+
+.accordion-content {
+    padding: 1.5rem 1.75rem;
+    border-top: 1px solid var(--color-bg-mid);
+}
+
+.accordion-content h3 {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-content h4 {
+    color: var(--color-secondary);
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.accordion-content table {
+    margin: 1rem 0;
+}
+
+.accordion-content blockquote {
+    font-size: 0.95rem;
+}
+
+/* =========================================
+   ACCORDION — div-based (replaces details/summary)
+   ========================================= */
+.accordion-item {
+    border: 1px solid var(--color-bg-mid);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(67, 125, 200, 0.06);
+    transition: box-shadow 0.2s;
+}
+
+.accordion-item:has(.accordion-header[data-expanded]) {
+    box-shadow: 0 4px 16px rgba(67, 125, 200, 0.14);
+    border-color: var(--color-accent);
+}
+
+.accordion-header {
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-secondary);
+    background: var(--color-bg-light);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    user-select: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.accordion-header:hover {
+    background: #e8f0fb;
+    color: var(--color-primary);
+}
+
+.accordion-header[data-expanded="true"] {
+    background: linear-gradient(130deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    color: white;
+}
+
+.accordion-header[data-expanded="true"]:hover {
+    opacity: 0.96;
+}
+
+.accordion-icon {
+    font-size: 0.75rem;
+    flex-shrink: 0;
+    color: var(--color-primary);
+    transition: none;
+}
+
+.accordion-header[data-expanded="true"] .accordion-icon {
+    color: white;
+}
+
+.accordion-body {
+    padding: 1.5rem 1.75rem;
+    border-top: 1px solid var(--color-bg-mid);
+}
+
+.accordion-body h3 {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-body h4 {
+    color: var(--color-secondary);
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.accordion-body table {
+    margin: 1rem 0;
+}
+
+.accordion-body blockquote {
+    font-size: 0.95rem;
+}
+
+/* Remove <p> wrapper that kramdown adds around the header span content */
+.accordion-header p {
+    margin: 0;
+    display: contents;
+}

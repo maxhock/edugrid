@@ -45,27 +45,27 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
 **Our Kits**
 
 <div class="resources-grid">
-    <div class="resource-card">
-        <h3>🌀 Wind</h3>
-        <p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-        <a href="{{ '/student-wind-landing/' | relative_url }}">Learn More</a>
-    </div>
-    <div class="resource-card">
-        <h3>💧 Hydro</h3>
-        <p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-        <a href="{{ '/student-hydro-landing/' | relative_url }}">Learn More</a>
-    </div>
-    <div class="resource-card">
-        <h3>🔆 Solar</h3>
-        <p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
-    </div>
-    <div class="resource-card">
-        <h3>⚡ Storage</h3>
-        <p>Coming soon...</p>
-    </div>
-    <div class="resource-card">
-        <h3>🔋 Battery</h3>
-        <p>Coming soon...</p>
-    </div>
+<div class="resource-card">
+<h3>🌀 Wind</h3>
+<p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
+<a href="{{ '/student-wind-landing/' | relative_url }}">Learn More</a>
+</div>
+<div class="resource-card">
+<h3>💧 Hydro</h3>
+<p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
+<a href="{{ '/student-hydro-landing/' | relative_url }}">Learn More</a>
+</div>
+<div class="resource-card">
+<h3>🔆 Solar</h3>
+<p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
+<a href="{{ '/student-solar-landing/' | relative_url }}">Learn More</a>
+</div>
+<div class="resource-card">
+<h3>⚡ Storage</h3>
+<p>Coming soon...</p>
+</div>
+<div class="resource-card">
+<h3>🔋 Battery</h3>
+<p>Coming soon...</p>
+</div>
 </div>
