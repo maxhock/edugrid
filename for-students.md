@@ -48,12 +48,12 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
     <div class="resource-card">
         <h3>🌀 Wind</h3>
         <p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
+        <a href="{{ '/student-wind-landing/' | relative_url }}">Learn More</a>
     </div>
     <div class="resource-card">
         <h3>💧 Hydro</h3>
         <p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
+        <a href="{{ '/student-hydro-landing/' | relative_url }}">Learn More</a>
     </div>
     <div class="resource-card">
         <h3>🔆 Solar</h3>

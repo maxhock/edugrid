@@ -19,21 +19,21 @@ Each kit focuses on one key topic in the world of **renewable energy** and comes
         <h3>💧 Hydro Kit</h3>
         <p><strong>Harness the power of flowing water to generate clean energy.</strong></p>
         <p>This kit demonstrates how water flow turns turbines to produce electricity. It's a fun, powerful way to teach renewable energy.</p>
-        <p><a href="{{ '/for-students/' | relative_url }}">Students</a> | <a href="{{ '/for-teachers/' | relative_url }}">Teachers</a></p>
+        <p><a href="{{ '/student-hydro-landing/' | relative_url }}">Students</a> | <a href="{{ '/teacher-hydro-landing/' | relative_url }}">Teachers</a></p>
     </div>
     
     <div class="resource-card">
         <h3>🌀 Wind Kit</h3>
         <p><strong>Explore how wind turbines convert air movement into electricity.</strong></p>
         <p>Learn about turbine mechanics, blade design, and how wind power is harnessed efficiently in real-world systems.</p>
-        <p><a href="{{ '/for-students/' | relative_url }}">Students</a> | <a href="{{ '/for-teachers/' | relative_url }}">Teachers</a></p>
+        <p><a href="{{ '/student-wind-landing/' | relative_url }}">Students</a> | <a href="{{ '/teacher-wind-landing/' | relative_url }}">Teachers</a></p>
     </div>
     
     <div class="resource-card">
         <h3>🔆 Solar Kit</h3>
         <p><strong>Discover how sunlight becomes electricity using photovoltaic cells.</strong></p>
         <p>This kit helps students understand solar energy by building small-scale photovoltaic systems for hands-on learning.</p>
-        <p><a href="{{ '/for-students/' | relative_url }}">Students</a> | <a href="{{ '/for-teachers/' | relative_url }}">Teachers</a></p>
+        <p><a href="{{ '/for-students/' | relative_url }}">Students</a> | <a href="{{ '/teacher-solar-worksheet/' | relative_url }}">Teachers</a></p>
     </div>
     
     <div class="resource-card">

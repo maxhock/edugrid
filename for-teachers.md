@@ -44,17 +44,17 @@ Whether you're introducing solar panels, hydropower, or wind turbines, each Teac
     <div class="resource-card">
         <h3>🌀 Wind</h3>
         <p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
+        <a href="{{ '/teacher-wind-landing/' | relative_url }}">Learn More</a>
     </div>
     <div class="resource-card">
         <h3>💧 Hydro</h3>
         <p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
+        <a href="{{ '/teacher-hydro-landing/' | relative_url }}">Learn More</a>
     </div>
     <div class="resource-card">
         <h3>🔆 Solar</h3>
         <p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
-        <a href="{{ '/teaching-kits/' | relative_url }}">Learn More</a>
+        <a href="{{ '/teacher-solar-worksheet/' | relative_url }}">Learn More</a>
     </div>
     <div class="resource-card">
         <h3>⚡ Storage</h3>
