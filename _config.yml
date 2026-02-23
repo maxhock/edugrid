@@ -49,6 +49,10 @@ navigation:
     url: /for-students
   - title: For Teachers
     url: /for-teachers
+  - title: FAQ
+    url: /faq
+  - title: Support Us
+    url: /support
   - title: Contact
     url: /contact
 

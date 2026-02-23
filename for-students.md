@@ -4,11 +4,13 @@ title: For Students
 permalink: /for-students/
 ---
 
+## Student Resources
+
 ## Welcome, Students!
 
 Welcome to **Student Hub**, where we turn big ideas about **sustainable power** into hands-on adventures! Our interactive **Student Kits** bring solar, hydro, wind, battery, and storage technologies out of textbooks and into your classroom.
 
-### What You'll Discover
+### **What You'll Discover**
 
 🔆 **Solar Energy Kit**  
 Teach photovoltaic technology and real-world solar applications.
@@ -19,6 +21,50 @@ Dive into the mechanics of turbines and the natural water cycle.
 🌬️ **Wind Energy Kit**  
 Explore wind turbines, motion, and aerodynamic principles.
 
----
+## 🔍 How It Works
 
-Ready to start learning? Check out our [Teaching Kits](/teaching-kits/) page for more details!
+1. **Choose Your Kit**  
+    Ask your teacher which kit matches today's lesson plan.
+2. **Follow Guided Experiments**  
+    Each kit comes with a clear step-by-step workbook that you can click through online.
+3. **Record Your Findings**  
+    Answer the questions on paper and fill out the worksheets to track observations and calculations.
+4. **Share & Discuss**  
+    Bring your results back to class and join the conversation on sustainable solutions!
+
+### 🚀 Ready to Get Started?
+
+Grab your **Student Kit**, roll up your sleeves, and let's power the planet—one experiment at a time!
+
+💡 **TIP:**  
+Don't have your worksheet yet? Request it from your teacher before diving in.
+
+## Try it. Test it. Understand it.
+
+Our Kits
+
+### Wind
+
+Build your own turbine and explore lift, drag, and optimal blade design.  
+
+[Learn More](/student-wind-landing/)
+
+### Hydro
+
+Generate power from falling water and investigate efficiency with your own mini dam.
+
+[Learn More](/student-hydro-landing/)
+
+### Solar
+
+Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.
+
+[Learn More](/student-solar-landing/)
+
+### Storage
+
+Coming soon...
+
+### Battery
+
+Coming soon...
