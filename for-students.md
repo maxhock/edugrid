@@ -6,6 +6,12 @@ permalink: /for-students/
 
 ## Student Resources
 
+<div class="page-hero">
+<div class="page-hero-img">
+<img src="{{ '/assets/images/students-solar.jpg' | relative_url }}" alt="Students working with solar kits">
+</div>
+<div class="page-hero-text" markdown="1">
+
 ## Welcome, Students!
 
 Welcome to **Student Hub**, where we turn big ideas about **sustainable power** into hands-on adventures! Our interactive **Student Kits** bring solar, hydro, wind, battery, and storage technologies out of textbooks and into your classroom.
@@ -37,6 +43,9 @@ Explore wind turbines, motion, and aerodynamic principles.
 Grab your Student Kit, roll up your sleeves, and let's power the planet—one experiment at a time!
 
 > 💡 **TIP:** Don't have your worksheet yet? Request it from your teacher before diving in.
+
+</div>
+</div>
 
 ---
 

@@ -6,6 +6,12 @@ permalink: /for-teachers/
 
 ## Teacher Resources
 
+<div class="page-hero">
+<div class="page-hero-img">
+<img src="{{ '/assets/images/teaching.jpg' | relative_url }}" alt="Teacher leading a renewable energy lesson">
+</div>
+<div class="page-hero-text" markdown="1">
+
 ## Welcome, Teachers!
 
 This page is your go-to resource for preparing and delivering **engaging, hands-on lessons** about **renewable energy**. Our carefully designed teaching kits help you bring complex topics to life — with experiments, visuals, and interactive content.
@@ -33,6 +39,9 @@ Whether you're introducing solar panels, hydropower, or wind turbines, each Teac
 👩‍🏫 **Teacher Worksheet** — Guidance, background info, and answers
 
 > **Educational Note:** These kits are designed to be hands-on and accessible — no prior knowledge of electrical engineering needed. They also offer advanced learning for experienced students: data analysis in Excel, efficiency calculations, and critical discussions on energy policy in Ghana and Germany. Perfect for STEM weeks, science class, or Education for Sustainable Development.
+
+</div>
+</div>
 
 ---
 
