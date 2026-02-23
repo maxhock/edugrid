@@ -1,7 +1,7 @@
 title: EduGrid
 description: Renewable Energy Education Project
 baseurl: ""
-url: "https://maxhock.github.io/edu-grid.github.io"
+url: "https://maxhock.github.io/edugrid-website"
 
 # Build settings
 markdown: kramdown
@@ -39,18 +39,16 @@ defaults:
 
 # Navigation
 navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
+  - title: About Us
+    url: /about/
   - title: Teaching Kits
-    url: /teaching-kits
+    url: /teaching-kits/
   - title: For Students
-    url: /for-students
+    url: /for-students/
   - title: For Teachers
-    url: /for-teachers
+    url: /for-teachers/
   - title: Contact
-    url: /contact
+    url: /contact/
 
 # Site settings
 email: contact@edu-grid.org

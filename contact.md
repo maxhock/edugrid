@@ -4,40 +4,41 @@ title: Contact
 permalink: /contact/
 ---
 
-## Get in Touch
+## Contact us
 
 ### We'd love to hear from you
 
-Whether you have questions about our project, want to collaborate, or need more information about our resources, we're here to help!
+<div class="contact-form">
+    <form action="https://formspree.io/f/contact" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Write us</label>
+            <textarea id="message" name="message" placeholder="Write us" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+</div>
 
-![Contact]({{ '/assets/images/contact.jpg' | relative_url }})
+---
 
 ## Get in touch with us
 
 ### Let's connect and talk about how we can help each other
 
-Interested in supporting our mission or partnering with us? Help us bring renewable energy education to more classrooms through collaboration or sponsorship.
-
-## Want to know more about us?
-
-Find more information on our [About Us](/about/) page.
-
----
+Want to know more about us? Find more here → [About Us](/about/)
 
 **Contact Information:**
 
-For inquiries, please reach out through:
 - **Email:** {{ site.email }}
 - **GitHub:** [{{ site.github_username }}](https://github.com/{{ site.github_username }})
-
-### Partnerships
-
-We welcome collaborations with:
-
-- Educational institutions
-- Research organizations
-- Industry partners
-- Non-profit organizations
-- Government agencies
-
-Please reach out to discuss potential partnerships and how we can work together to advance renewable energy education.
