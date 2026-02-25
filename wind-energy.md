@@ -17,9 +17,20 @@ permalink: /wind-energy/
 </div>
 <div class="accordion-body" markdown="1">
 
-### Welcome to the Wind Learning Adventure!
+Welcome to the Wind Learning Adventure! Click the next section to begin your journey.
 
-🌀 **Welcome to the World of Wind Energy!**
+---
+
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 📘 Introduction
+</div>
+<div class="accordion-body" style="display:none" markdown="1">
+
+### 🌀 Welcome to the World of Wind Energy!
 
 Imagine using the power of moving air to generate clean electricity. This is exactly what wind energy does. Wind energy is a clean and renewable source of power. Wind turbines capture the movement of air and convert it into electricity. In this workbook, you will explore how wind energy works, why it is useful, and how it can help shape our energy future.
 
@@ -55,32 +66,7 @@ By the end of this workbook, you'll have a solid understanding of wind energy an
 
 <div class="accordion-item">
 <div class="accordion-header">
-<span class="accordion-icon">▶</span> 💨 Why Wind Matters
-</div>
-<div class="accordion-body" style="display:none" markdown="1">
-
-Wind energy harnesses the power of the wind to generate electricity, making use of wind turbines to capture the wind's kinetic energy and convert it into usable power.
-
-### Why is wind energy important?
-
-Wind energy is important because it provides clean and renewable electricity. Many countries around the world have suitable wind conditions. In countries such as Ghana, Denmark or India, strong and steady winds help reduce dependence on fossil fuels and support more sustainable energy systems.
-
-### ✅ Key Advantages of Wind Energy
-
-- **Renewable Energy Source:** Wind is a free natural resource that is constantly replenished, making it a sustainable source of energy.
-- **Environmentally Friendly:** Wind energy produces no emissions or pollutants, which helps protect the environment.
-- **Low Operating Costs:** After installation, wind turbines require little maintenance, and the wind itself is free.
-- **Energy Independence:** Wind energy allows communities to generate their own electricity and reduce reliance on external energy sources.
-- **Versatile Applications:** Wind turbines can be used in many settings, from large wind farms to small installations that power homes or businesses.
-
----
-
-</div>
-</div>
-
-<div class="accordion-item">
-<div class="accordion-header">
-<span class="accordion-icon">▶</span> 📘 Key Wind Energy Terms
+<span class="accordion-icon">▶</span> 🧠 Key Wind Energy Terms
 </div>
 <div class="accordion-body" style="display:none" markdown="1">
 
@@ -96,13 +82,45 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 - 📍 **MPP (Maximum Power Point):** The operating condition where a turbine produces the maximum possible power for a given wind speed and blade angle.
 - 🌊 **Offshore Wind Turbine:** A wind turbine located at sea. It uses strong ocean winds to produce electricity, which is sent to the onshore power grid.
 - 🌄 **Onshore Wind Turbine:** A wind turbine located on land, often in open plains or mountain areas. It turns wind into electricity and feeds it into the power grid.
-- 🔋 **Power:** Power is the amount of energy that something can produce or use in a certain amount of time. The unit is Watts (W).
+- 🔋 **Power:** Power is the amount of energy that something can produce or use in a certain amount of time. For wind turbines, power means the energy they create by turning wind into electricity. The unit is Watts (W).
+- ⚙️ **Power Density:** The amount of power produced per unit area or volume. It is often used to compare how efficient a system is.
 - 🌬️ **Speed of Wind:** How fast the air is moving. Faster wind speeds mean more energy is available for generating power.
 - 🔌 **Voltage:** Voltage is like the "pressure" in an electrical circuit. It tells us how strongly the electricity is being pushed through wires. The unit is Volt (V).
 - 🌪️ **Wind:** Wind is moving air in the atmosphere. It happens when the air heats up differently in different places and moves around.
 - 🔄 **Wind Energy:** Wind energy is the energy created by moving air. Wind turbines turn this energy into electricity.
 - 📏 **Wind Speed:** Measures how fast the wind is blowing in meters per second. Higher wind speed means more energy can be harvested by wind turbines.
-- 📐 **Work:** In physics, work happens when a force moves an object over a distance.
+- 📐 **Work:** In physics, work happens when a force moves an object over a distance. For wind turbines, the wind applies force to the blades, causing them to spin and generate energy.
+
+---
+
+</div>
+</div>
+
+<div class="accordion-item">
+<div class="accordion-header">
+<span class="accordion-icon">▶</span> 🌍 Why Wind Matters
+</div>
+<div class="accordion-body" style="display:none" markdown="1">
+
+Now, let's dive into **wind energy!** Wind energy harnesses the power of the wind to generate electricity, making use of wind turbines to capture the wind's kinetic energy and convert it into usable power.
+
+### Why is wind energy important?
+
+Wind energy is important because it provides clean and renewable electricity. Many countries around the world have suitable wind conditions. In countries such as Ghana, Denmark or India, strong and steady winds help reduce dependence on fossil fuels and support more sustainable energy systems. These examples show how wind energy can contribute to a greener future in many different parts of the world.
+
+### ✅ Key Advantages of Wind Energy
+
+- **Renewable Energy Source:** Wind is a free natural resource that is constantly replenished, making it a sustainable source of energy.
+- **Environmentally Friendly:** Wind energy produces no emissions or pollutants, which helps protect the environment.
+- **Low Operating Costs:** After installation, wind turbines require little maintenance, and the wind itself is free.
+- **Energy Independence:** Wind energy allows communities to generate their own electricity and reduce reliance on external energy sources.
+- **Versatile Applications:** Wind turbines can be used in many settings, from large wind farms to small installations that power homes or businesses.
+
+### 🚀 What's Next?
+
+In the next chapters, you will learn about energy, wind energy and how moving air can be turned into electricity. You will also learn how to measure wind speed and understand different wind conditions. As part of the practical activities, you will build your own airfoil and a small wind turbine. Through hands-on experiments and clear explanations, you will discover how wind energy works and what its potential is.
+
+**Get ready to begin your journey into wind energy.**
 
 ---
 
@@ -119,26 +137,24 @@ Wind energy is important because it provides clean and renewable electricity. Ma
 
 These simple tools and materials will help you bring wind energy to life through hands-on experiments:
 
-| Material | Purpose |
-|----------|---------|
-| Scissors | To cut out the wind rose |
-| Paper Cup | To serve as a base for the wind rose |
-| Tape | To secure components |
-| Straw | Acts as a tower for the wind rose |
-| Stopwatch | To measure rotation time |
-| Colorful Marker | To decorate and mark sections |
-| 30cm Light Thread | Used to suspend the paper clip |
-| Fan | Creates wind to turn the wind rose |
-| Paper Clip | Acts as a weight |
-| Narrow Wooden Stick | Holds the airfoil |
-| 1 sheet of paper DIN A4 (or 2× A5) | Used to build the airfoil |
-| Yarn | Used for wake effect |
-| Hairdryer | Simulates wind for tests |
-| Multimeter | Measures the performance of your wind turbine |
+- **Scissors:** To cut out the wind rose
+- **Paper Cup:** To serve as a base for the wind rose
+- **Tape:** To secure components
+- **Straw:** Acts as a tower for the wind rose
+- **Stopwatch:** To measure rotation time
+- **Colorful Marker:** To decorate and mark sections
+- **30cm Light Thread:** Used to suspend the paper clip
+- **Fan:** Creates wind to turn the wind rose
+- **Paper Clip:** Acts as a weight
+- **Narrow Wooden Stick:** Holds the airfoil
+- **1 sheet of paper DIN A4 (or 2× A5):** Used to build the airfoil
+- **Yarn:** Used for wake effect
+- **Hairdryer:** Simulates wind for tests
+- **Multimeter:** Measures the performance of your wind turbine
 
 > The kit includes most of what you'll need — just gather a few extras and get ready to explore!
 
-### 🔌 How to Use a Multimeter
+### 🔌 How to measure the power of wind turbines
 
 A multimeter is a handy tool that can measure electrical quantities like **voltage**, **current**, and **resistance**.
 
