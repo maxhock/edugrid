@@ -83,33 +83,43 @@ Structured syllabus, lesson planning. Textbook creation through TUM students
 ## Meet the Team
 
 <div class="team-grid">
-<div class="team-card">
+<div class="team-card" markdown="1">
 <img src="{{ '/assets/images/anurag.png' | relative_url }}" alt="Anurag Mohapatra" class="team-photo">
-<h3>Anurag Mohapatra</h3>
+
+### Anurag Mohapatra
+
 <p class="role">Postdoc TUM, Smart Grids</p>
 </div>
 
-<div class="team-card">
+<div class="team-card" markdown="1">
 <img src="{{ '/assets/images/michael.png' | relative_url }}" alt="Michael Erhardt" class="team-photo">
-<h3>Michael Erhardt</h3>
+
+### Michael Erhardt
+
 <p class="role">PhD TUM, Smart Grids</p>
 </div>
 
-<div class="team-card">
+<div class="team-card" markdown="1">
 <img src="{{ '/assets/images/max.jpg' | relative_url }}" alt="Maximilian Hock" class="team-photo">
-<h3>Maximilian Hock</h3>
+
+### Maximilian Hock
+
 <p class="role">PhD TUM, ML for Smart Grids</p>
 </div>
 
-<div class="team-card">
+<div class="team-card" markdown="1">
 <img src="{{ '/assets/images/stephan.jpg' | relative_url }}" alt="Stephan Baur" class="team-photo">
-<h3>Stephan Baur</h3>
+
+### Stephan Baur
+
 <p class="role">PhD TUM, Renewable Energy</p>
 </div>
 
-<div class="team-card">
+<div class="team-card" markdown="1">
 <img src="{{ '/assets/images/nina.jpg' | relative_url }}" alt="Nina Steger" class="team-photo">
-<h3>Nina Steger</h3>
+
+### Nina Steger
+
 <p class="role">Master's Student, Sustainable Energies</p>
 </div>
 </div>
