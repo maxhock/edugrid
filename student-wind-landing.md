@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Wind Landing
+nav-menu: false
 permalink: /student-wind-landing/
 ---
 

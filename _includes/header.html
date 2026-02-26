@@ -1,14 +1,30 @@
-<header class="site-header">
-    <div class="container">
-        <div class="header-content">
-            <a href="{{ '/' | relative_url }}" class="site-logo-link">
-                <img src="{{ '/assets/images/logo-white.svg' | relative_url }}" alt="{{ site.title }}" class="site-logo">
-            </a>
-            <nav class="site-nav">
-                {% for item in site.navigation %}
-                <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
-                {% endfor %}
-            </nav>
-        </div>
-    </div>
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.html_pages %}
+		    {% if page.layout != "home" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="/teaching-kits/" class="button special fit">Explore Kits</a></li>
+		<li><a href="/contact/" class="button fit">Contact Us</a></li>
+	</ul>
+</nav>

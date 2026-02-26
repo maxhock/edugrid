@@ -1,60 +1,37 @@
 title: EduGrid
-description: Renewable Energy Education Project
+subtitle: Renewable Energy Education
+email: contact@edu-grid.org
+description: Open-source, 3D-printable kits and textbooks from TU Munich that turn every classroom into a hands-on renewable energy lab.
 baseurl: ""
 url: "https://maxhock.github.io/edugrid-website"
+author:
+street_address:
+city: Munich
+state:
+zip_code:
+country: Germany
+phone:
 
-# Build settings
+# homepage tiles (show pages that have nav-menu: true)
+tiles-source: pages
+tiles-count: 6
+
+# social settings
+socials:
+  GitHub: https://github.com/maxhock
+
+# build settings
 markdown: kramdown
 kramdown:
   parse_block_html: true
-theme: minima
+
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Collections
-collections:
-  team:
-    output: true
-    permalink: /team/:name/
-  publications:
-    output: true
-    permalink: /publications/:name/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team_member"
-
-# Navigation
-navigation:
-  - title: About Us
-    url: /about/
-  - title: Teaching Kits
-    url: /teaching-kits/
-  - title: For Students
-    url: /for-students/
-  - title: For Teachers
-    url: /for-teachers/
-  - title: Contact
-    url: /contact/
-
-# Site settings
-email: contact@edu-grid.org
-github_username: maxhock
+  - jekyll-timeago
 
 # Exclude from processing
 exclude:
@@ -63,3 +40,7 @@ exclude:
   - node_modules
   - vendor
   - tasks.json
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md

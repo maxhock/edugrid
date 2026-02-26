@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Hydro Landing
+nav-menu: false
 permalink: /student-hydro-landing/
 ---
 

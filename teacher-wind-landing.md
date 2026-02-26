@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teacher Wind Landing
+nav-menu: false
 permalink: /teacher-wind-landing/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Solar Landing
+nav-menu: false
 permalink: /student-solar-landing/
 ---
 

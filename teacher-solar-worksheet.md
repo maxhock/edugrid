@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teacher Solar Landing
+nav-menu: false
 permalink: /teacher-solar-landing/
 ---
 

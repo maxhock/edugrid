@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teacher Hydro Landing
+nav-menu: false
 permalink: /teacher-hydro-landing/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Wind Worksheet
+nav-menu: false
 permalink: /wind-energy/
 ---
 ## Wind Learning Adventure

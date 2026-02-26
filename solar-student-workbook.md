@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Solar Worksheet
+nav-menu: false
 permalink: /solar-student-workbook/
 ---
 

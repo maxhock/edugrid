@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Teaching Kits
+description: Access our open-source renewable energy teaching kits.
+image: assets/images/teaching.jpg
+nav-menu: true
 permalink: /teaching-kits/
 ---
 

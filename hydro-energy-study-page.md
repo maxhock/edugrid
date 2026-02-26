@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Student Hydro Worksheet
+nav-menu: false
 permalink: /hydro-energy-study-page/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Imprint
+nav-menu: false
 permalink: /imprint/
 ---
 

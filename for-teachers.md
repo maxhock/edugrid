@@ -1,6 +1,9 @@
 ---
 layout: page
 title: For Teachers
+description: Teaching resources, lesson plans, and experiment guides.
+image: null
+nav-menu: true
 permalink: /for-teachers/
 ---
 

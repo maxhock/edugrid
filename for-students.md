@@ -1,6 +1,9 @@
 ---
 layout: page
 title: For Students
+description: Explore renewable energy experiments and learning resources.
+image: null
+nav-menu: true
 permalink: /for-students/
 ---
 
