@@ -1,8 +1,7 @@
 ---
-layout: landing
+layout: page
 title: Contact
 description: Get in touch with us.
-image: null
 nav-menu: true
 permalink: /contact/
 ---

@@ -11,7 +11,22 @@
 <body>
     <script type="text/javascript">document.body.classList.add("is-loading");</script>
 
-    {% include header.html %} {{ content }} {% include footer.html %}
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main" class="alt">
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h1>{{ page.title }}</h1>
+                </header>
+                {% if page.image %}<span class="image main"><img src="{{ page.image | relative_url }}" alt="{{ page.title }}" /></span>{% endif %}
+                {{ content }}
+            </div>
+        </section>
+    </div>
+
+    {% include footer.html %}
 
 </body>
 

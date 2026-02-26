@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: About
 description: Learn more about the EduGrid project and our mission.
 image: assets/images/students-solar.jpg
 nav-menu: true
