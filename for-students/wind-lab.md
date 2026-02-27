@@ -1,8 +1,31 @@
 ---
 layout: page
-title: Student Wind Worksheet
-permalink: /wind-energy/
+title: Wind Lab
+permalink: /for-students/wind-lab/
 ---
+
+## 🌀 Wind Teaching Kit
+
+*Start your hands-on learning adventure*
+
+This page will guide you in learning about wind energy using the **Wind Teaching Kit**.
+
+### Learn About Wind Energy
+
+Get ready to explore how wind energy works and how we can capture the power of moving air to generate electricity!
+
+You will work with the **Wind Teaching Kit** and complete fun, hands-on activities in your classroom.
+
+---
+
+### 📄 Interactive Workbook
+
+Work through the chapters below to follow along during the lesson. Each chapter includes activities, explanations, and space for your answers and observations.
+
+> 📌 **Note:** Please use either a printed version or a tablet-based digital version of the Student Worksheet to take notes and write down your calculations during the lesson!
+
+---
+
 ## Wind Learning Adventure
 
 **Chapters:** 👋 Welcome · 📘 Introduction · 🧠 Definitions · 🌍 Why wind matters · 🔧 What is needed · 📝 Exercises (Ch 1–4) · 💬 Give Feedback
@@ -505,7 +528,7 @@ Since we know the wind turbine must face directly into the wind, and wind change
 
 ---
 
-> 💬 **Give Feedback** — Share your experience with this workbook via the [contact form](/contact/).
+> 💬 **Give Feedback** — Share your experience with this workbook via the [contact form](/get-involved/contact/).
 
 </div>
 </div>
@@ -538,4 +561,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-[← Back to Student Wind Landing](/student-wind-landing/)
+[← Back to Student Hub](/for-students/)

@@ -9,7 +9,7 @@ title: Home
 <div class="hero-text">
 <h1>Education is a right, not a privilege</h1>
 <p>Open-source, 3D-printable kits and textbooks from TU Munich that turn every classroom into a hands-on photovoltaic, wind, hydro, grid and storage energy lab, empowering students to become renewable-power innovators.</p>
-<a href="{{ '/teaching-kits/' | relative_url }}" class="btn btn-primary">Explore Our Kits</a>
+<a href="{{ '/hardware-kits/' | relative_url }}" class="btn btn-primary">Explore Our Kits</a>
 </div>
 <div class="hero-image">
 <img src="{{ '/assets/images/students-solar.jpg' | relative_url }}" alt="Students working with solar kits">
@@ -66,7 +66,7 @@ title: Home
 </div>
 
 <div class="cta-links">
-<a href="{{ '/teaching-kits/' | relative_url }}" class="btn btn-outline">Access Teaching Kit Resources →</a>
+<a href="{{ '/hardware-kits/' | relative_url }}" class="btn btn-outline">Access Hardware Kit Resources →</a>
 <a href="{{ '/for-teachers/' | relative_url }}" class="btn btn-outline">For Teachers →</a>
 <a href="{{ '/for-students/' | relative_url }}" class="btn btn-outline">For Students</a>
 </div>

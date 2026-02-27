@@ -1,9 +1,30 @@
 ---
 layout: page
-title: Student Hydro Worksheet
-permalink: /hydro-energy-study-page/
+title: Hydro Lab
+permalink: /for-students/hydro-lab/
 ---
 
+## 💧 Hydro Teaching Kit
+
+*Start your hands-on learning adventure*
+
+This page will guide you in learning about hydro energy using the **Hydro Teaching Kit**.
+
+### Learn About Hydro Energy
+
+Get ready to explore how flowing water can generate electricity — and how we can use that clean energy to power real-life tools and devices.
+
+You will work with the **Hydro Teaching Kit** and complete fun, hands-on activities in your classroom.
+
+---
+
+### 📄 Interactive Workbook
+
+Work through the chapters below to follow along during the lesson. Each chapter includes activities, explanations, and space for your answers and observations.
+
+> 📌 **Note:** Please use either a printed version or a tablet-based digital version of the Student Worksheet to take notes and write down your calculations during the lesson!
+
+---
 
 <div class="accordion-page">
 
@@ -374,4 +395,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-[← Back to Student Hydro Landing](/student-hydro-landing/)
+[← Back to Student Hub](/for-students/)

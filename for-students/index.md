@@ -57,17 +57,17 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
 <div class="resource-card">
 <h3>🌀 Wind</h3>
 <p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-<a href="{{ '/student-wind-landing/' | relative_url }}">Learn More</a>
+<a href="{{ '/for-students/wind-lab/' | relative_url }}">Open Wind Lab</a>
 </div>
 <div class="resource-card">
 <h3>💧 Hydro</h3>
 <p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-<a href="{{ '/student-hydro-landing/' | relative_url }}">Learn More</a>
+<a href="{{ '/for-students/hydro-lab/' | relative_url }}">Open Hydro Lab</a>
 </div>
 <div class="resource-card">
 <h3>🔆 Solar</h3>
 <p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
-<a href="{{ '/student-solar-landing/' | relative_url }}">Learn More</a>
+<a href="{{ '/for-students/solar-lab/' | relative_url }}">Open Solar Lab</a>
 </div>
 <div class="resource-card">
 <h3>⚡ Storage</h3>

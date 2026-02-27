@@ -4,7 +4,9 @@ title: For Teachers
 permalink: /for-teachers/
 ---
 
-## Teacher Resources
+## Teacher Document Hub
+
+*Everything you need to deliver engaging, hands-on renewable energy lessons.*
 
 <div class="page-hero">
 <div class="page-hero-img">
@@ -14,65 +16,96 @@ permalink: /for-teachers/
 
 ## Welcome, Teachers!
 
-This page is your go-to resource for preparing and delivering **engaging, hands-on lessons** about **renewable energy**. Our carefully designed teaching kits help you bring complex topics to life — with experiments, visuals, and interactive content.
+This is your centralised document hub for all three EduGrid teaching kits. Find lesson plans, rubrics, classroom presentations, and student worksheets — all in one place.
 
-### Teaching Kits
-
-🔆 **Solar Energy Kit**  
-Introduce students to solar cells, photovoltaic systems, and real-world solar tech.
-
-🌊 **Hydro Energy Kit**  
-Explore the power of water, turbine mechanics, and the natural water cycle.
-
-🌬️ **Wind Energy Kit**  
-Teach how wind creates motion and energy through turbines and blades.
-
----
-
-### What's Inside Each Kit
-
-Whether you're introducing solar panels, hydropower, or wind turbines, each Teaching Kit provides everything needed for a full, engaging lesson.
-
-✅ **Assembly Instructions** — Clear step-by-step guide with material list  
-🎓 **Teacher Presentation** — Ready-to-use slides for your lesson delivery  
-📝 **Student Worksheet** — Experiments, questions, and writing space  
-👩‍🏫 **Teacher Worksheet** — Guidance, background info, and answers
-
-> **Educational Note:** These kits are designed to be hands-on and accessible — no prior knowledge of electrical engineering needed. They also offer advanced learning for experienced students: data analysis in Excel, efficiency calculations, and critical discussions on energy policy in Ghana and Germany. Perfect for STEM weeks, science class, or Education for Sustainable Development.
+> **Note:** No prior knowledge of electrical engineering is needed. These kits are designed for students aged 14–18 and are perfect for STEM weeks, science class, or Education for Sustainable Development.
 
 </div>
 </div>
 
 ---
 
-## Try it. Test it. Understand it.
-
-**Our Kits**
+## 🌀 Wind Kit — Documents
 
 <div class="resources-grid">
 <div class="resource-card">
-<h3>🌀 Wind</h3>
-<p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-<a href="{{ '/teacher-wind-landing/' | relative_url }}">Learn More</a>
+<h3>📘 Teacher Workbook with Solutions</h3>
+<p>Lesson plan, background theory, and answer guide for teachers.</p>
+<p>
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> |
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>
+</p>
 </div>
 <div class="resource-card">
-<h3>💧 Hydro</h3>
-<p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-<a href="{{ '/teacher-hydro-landing/' | relative_url }}">Learn More</a>
+<h3>🎓 Classroom Presentation</h3>
+<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
+<p>
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-presentation-Wind-Energy.pptx">🇬🇧 English (PPTX)</a> |
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-presentation-Wind-Energy.pptx">🇩🇪 German (PPTX)</a>
+</p>
 </div>
 <div class="resource-card">
-<h3>🔆 Solar</h3>
-<p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
-<a href="{{ '/teacher-solar-landing/' | relative_url }}">Learn More</a>
+<h3>📝 Student Worksheet</h3>
+<p>Printable worksheet for students to use during the lesson.</p>
+<p>
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Students-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> |
+  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Students-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>
+</p>
 </div>
 <div class="resource-card">
-<h3>⚡ Storage</h3>
-<p>Coming soon...</p>
-</div>
-<div class="resource-card">
-<h3>🔋 Battery</h3>
-<p>Coming soon...</p>
+<h3>🖨️ Wind Turbine Model</h3>
+<p>Printable turbine model for students to assemble during the session.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Wind_Turbine_Model.pdf">Download (PDF)</a></p>
 </div>
 </div>
 
-Visit our [Teaching Kits](/teaching-kits/) page to explore the complete collection and download materials for your classroom.
+---
+
+## 💧 Hydro Kit — Documents
+
+<div class="resources-grid">
+<div class="resource-card">
+<h3>📘 Teacher Workbook with Solutions</h3>
+<p>Lesson plan, background theory, and answer guide for hydro energy.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Workbook_Hydro.pptx">Download (PPTX)</a></p>
+</div>
+<div class="resource-card">
+<h3>🎓 Classroom Presentation</h3>
+<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Presentation_Hydro.pptx">Download (PPTX)</a></p>
+</div>
+<div class="resource-card">
+<h3>📝 Student Worksheet</h3>
+<p>Printable worksheet for students to use during the lesson.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_Hydro.pdf">Download (PDF)</a></p>
+</div>
+</div>
+
+---
+
+## 🔆 Solar Kit — Documents
+
+<div class="resources-grid">
+<div class="resource-card">
+<h3>📘 Teacher Workbook with Solutions</h3>
+<p>Lesson plan, background theory, and answer guide for solar energy.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/TeachersWorksheets.pptx">Download (PPTX)</a></p>
+</div>
+<div class="resource-card">
+<h3>🎓 Classroom Presentation</h3>
+<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
+<p>
+  <a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.1_PV-Basics.pptx">Chapter 1.1: PV Basics (PPTX)</a><br>
+  <a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.2_Connecting-PV-to-a-load-and-MPP.pptx">Chapter 1.2: Connecting PV &amp; MPP (PPTX)</a>
+</p>
+</div>
+<div class="resource-card">
+<h3>📝 Student Worksheet</h3>
+<p>Printable worksheet for students to use during the lesson.</p>
+<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_PV.pdf">Download (PDF)</a></p>
+</div>
+</div>
+
+---
+
+> Need the hardware? Visit the [Hardware Kits](/hardware-kits/) page to download 3D files and assembly guides.
