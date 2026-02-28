@@ -15,7 +15,7 @@ Our kits are designed at TU Munich and released as open-source hardware. All 3D-
 <h3>🌀 Wind Kit</h3>
 <p><strong>Build your own wind turbine</strong> and explore how moving air generates electricity. Investigate blade design, lift, drag, and optimal rotor configurations.</p>
 <p>
-  <a href="https://www.thingiverse.com/thing:7093150" class="btn btn-primary" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
+  <a href="https://www.thingiverse.com/thing:7093150" class="btn btn-primary" style="color: white;" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
   <a href="https://www.instructables.com/EduGrid-Wind-Turbine/" class="btn btn-outline" target="_blank" rel="noopener">Assembly Guide (Instructables)</a>
 </p>
 </div>
@@ -24,7 +24,7 @@ Our kits are designed at TU Munich and released as open-source hardware. All 3D-
 <h3>💧 Hydro Kit</h3>
 <p><strong>Generate power from flowing water</strong> and investigate turbine efficiency with your own mini hydro setup. Explore how height, flow rate, and turbine design affect energy output.</p>
 <p>
-  <a href="https://www.thingiverse.com/thing:7093144" class="btn btn-primary" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
+  <a href="https://www.thingiverse.com/thing:7093144" class="btn btn-primary" style="color: white;" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
   <a href="https://www.thingiverse.com/thing:7093141" class="btn btn-outline" target="_blank" rel="noopener">Assembly Guide (Instructables)</a>
 </p>
 </div>
@@ -33,7 +33,7 @@ Our kits are designed at TU Munich and released as open-source hardware. All 3D-
 <h3>🔆 Solar Kit</h3>
 <p><strong>Discover how sunlight becomes electricity</strong> using real photovoltaic cells. Experiment with panel angles, shading effects, and voltage measurements.</p>
 <p>
-  <a href="https://www.thingiverse.com/thing:7093153" class="btn btn-primary" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
+  <a href="https://www.thingiverse.com/thing:7093153" class="btn btn-primary" style="color: white;" target="_blank" rel="noopener">Download 3D Files (Thingiverse)</a>
   <a href="https://www.thingiverse.com/thing:7093158" class="btn btn-outline" target="_blank" rel="noopener">Assembly Guide (Instructables)</a>
 </p>
 </div>

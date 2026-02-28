@@ -6,11 +6,12 @@ permalink: /for-students/
 
 ## Student Resources
 
-<div class="page-hero">
+<!-- <div class="page-hero">
 <div class="page-hero-img">
 <img src="{{ '/assets/images/students-solar.jpg' | relative_url }}" alt="Students working with solar kits">
 </div>
-<div class="page-hero-text" markdown="1">
+<div class="page-hero-text" markdown="1"> -->
+![Image]({{ site.baseurl }}/assets/images/students-solar.jpg)
 
 ## Welcome, Students!
 

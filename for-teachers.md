@@ -8,11 +8,13 @@ permalink: /for-teachers/
 
 *Everything you need to deliver engaging, hands-on renewable energy lessons.*
 
-<div class="page-hero">
+<!-- <div class="page-hero">
 <div class="page-hero-img">
 <img src="{{ '/assets/images/teaching.jpg' | relative_url }}" alt="Teacher leading a renewable energy lesson">
 </div>
-<div class="page-hero-text" markdown="1">
+<div class="page-hero-text" markdown="1"> -->
+![Image]({{ site.baseurl }}/assets/images/teaching.jpg)
+
 
 ## Welcome, Teachers!
 
