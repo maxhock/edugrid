@@ -683,28 +683,6 @@ Use the chart to assign labels to each mode, then fill in the energy consumed (r
 
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.accordion-header').forEach(function(header) {
-    header.addEventListener('click', function() {
-      var body = this.nextElementSibling;
-      var icon = this.querySelector('.accordion-icon');
-      var isHidden = body.style.display === 'none';
-
-      document.querySelectorAll('.accordion-item').forEach(function(item) {
-        item.querySelector('.accordion-body').style.display = 'none';
-        item.querySelector('.accordion-icon').textContent = '▶';
-        item.querySelector('.accordion-header').removeAttribute('data-expanded');
-      });
-
-      if (isHidden) {
-        body.style.display = '';
-        icon.textContent = '▼';
-        this.setAttribute('data-expanded', 'true');
-      }
-    });
-  });
-});
-</script>
+{% include accordion-script.html %}
 
 [← Back to Student Hub](/for-students/)

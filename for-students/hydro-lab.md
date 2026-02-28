@@ -371,28 +371,6 @@ In groups of 3, list 3 advantages and 3 limitations of pumped-storage hydropower
 
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.accordion-header').forEach(function(header) {
-    header.addEventListener('click', function() {
-      var body = this.nextElementSibling;
-      var icon = this.querySelector('.accordion-icon');
-      var isHidden = body.style.display === 'none';
-
-      document.querySelectorAll('.accordion-item').forEach(function(item) {
-        item.querySelector('.accordion-body').style.display = 'none';
-        item.querySelector('.accordion-icon').textContent = '▶';
-        item.querySelector('.accordion-header').removeAttribute('data-expanded');
-      });
-
-      if (isHidden) {
-        body.style.display = '';
-        icon.textContent = '▼';
-        this.setAttribute('data-expanded', 'true');
-      }
-    });
-  });
-});
-</script>
+{% include accordion-script.html %}
 
 [← Back to Student Hub](/for-students/)

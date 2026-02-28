@@ -13,21 +13,9 @@ EduGrid is a nonprofit initiative from TU Munich. All our teaching kits, interac
 ### How You Can Help
 
 <div class="resources-grid">
-<div class="resource-card">
-<h3>🎓 Volunteer</h3>
-<p>Are you an engineer, educator, or maker? Join our team and help us develop new kits and educational content.</p>
-<p><a href="/get-involved/contact/">Get in Touch</a></p>
-</div>
-<div class="resource-card">
-<h3>🏫 Partner with Us</h3>
-<p>Are you a school, university, or organisation interested in using EduGrid kits? We'd love to collaborate.</p>
-<p><a href="/get-involved/contact/">Get in Touch</a></p>
-</div>
-<div class="resource-card">
-<h3>💡 Spread the Word</h3>
-<p>Share our project with teachers, schools, and makerspaces in your network. Every mention helps us reach more students.</p>
-<p><a href="https://github.com/maxhock" target="_blank" rel="noopener">Follow us on GitHub</a></p>
-</div>
+{% include resource-card.html title="🎓 Volunteer" description="Are you an engineer, educator, or maker? Join our team and help us develop new kits and educational content." links='<a href="/get-involved/contact/">Get in Touch</a>' %}
+{% include resource-card.html title="🏫 Partner with Us" description="Are you a school, university, or organisation interested in using EduGrid kits? We'd love to collaborate." links='<a href="/get-involved/contact/">Get in Touch</a>' %}
+{% include resource-card.html title="💡 Spread the Word" description="Share our project with teachers, schools, and makerspaces in your network. Every mention helps us reach more students." links='<a href="https://github.com/maxhock" target="_blank" rel="noopener">Follow us on GitHub</a>' %}
 </div>
 
 ---

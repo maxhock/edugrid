@@ -535,30 +535,6 @@ Since we know the wind turbine must face directly into the wind, and wind change
 
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.accordion-header').forEach(function(header) {
-    header.addEventListener('click', function() {
-      var body = this.nextElementSibling;
-      var icon = this.querySelector('.accordion-icon');
-      var isHidden = body.style.display === 'none';
-
-      // Close all
-      document.querySelectorAll('.accordion-item').forEach(function(item) {
-        item.querySelector('.accordion-body').style.display = 'none';
-        item.querySelector('.accordion-icon').textContent = '▶';
-        item.querySelector('.accordion-header').removeAttribute('data-expanded');
-      });
-
-      // Open clicked (if it was closed)
-      if (isHidden) {
-        body.style.display = '';
-        icon.textContent = '▼';
-        this.setAttribute('data-expanded', 'true');
-      }
-    });
-  });
-});
-</script>
+{% include accordion-script.html %}
 
 [← Back to Student Hub](/for-students/)

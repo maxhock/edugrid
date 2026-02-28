@@ -83,35 +83,11 @@ Structured syllabus, lesson planning. Textbook creation through TUM students
 ## Meet the Team
 
 <div class="team-grid">
-<div class="team-card">
-<img src="{{ '/assets/images/anurag.png' | relative_url }}" alt="Anurag Mohapatra" class="team-photo">
-<h3>Anurag Mohapatra</h3>
-<p class="role">Postdoc TUM, Smart Grids</p>
-</div>
-
-<div class="team-card">
-<img src="{{ '/assets/images/michael.png' | relative_url }}" alt="Michael Erhardt" class="team-photo">
-<h3>Michael Erhardt</h3>
-<p class="role">PhD TUM, Smart Grids</p>
-</div>
-
-<div class="team-card">
-<img src="{{ '/assets/images/max.jpg' | relative_url }}" alt="Maximilian Hock" class="team-photo">
-<h3>Maximilian Hock</h3>
-<p class="role">PhD TUM, ML for Smart Grids</p>
-</div>
-
-<div class="team-card">
-<img src="{{ '/assets/images/stephan.jpg' | relative_url }}" alt="Stephan Baur" class="team-photo">
-<h3>Stephan Baur</h3>
-<p class="role">PhD TUM, Renewable Energy</p>
-</div>
-
-<div class="team-card">
-<img src="{{ '/assets/images/nina.jpg' | relative_url }}" alt="Nina Steger" class="team-photo">
-<h3>Nina Steger</h3>
-<p class="role">Master's Student, Sustainable Energies</p>
-</div>
+{% include team-card.html name="Anurag Mohapatra" role="Postdoc TUM, Smart Grids" image="/assets/images/anurag.png" %}
+{% include team-card.html name="Michael Erhardt" role="PhD TUM, Smart Grids" image="/assets/images/michael.png" %}
+{% include team-card.html name="Maximilian Hock" role="PhD TUM, ML for Smart Grids" image="/assets/images/max.jpg" %}
+{% include team-card.html name="Stephan Baur" role="PhD TUM, Renewable Energy" image="/assets/images/stephan.jpg" %}
+{% include team-card.html name="Nina Steger" role="Master's Student, Sustainable Energies" image="/assets/images/nina.jpg" %}
 </div>
 
 ## Get in touch

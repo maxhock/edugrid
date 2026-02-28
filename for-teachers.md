@@ -22,43 +22,15 @@ This is your centralised document hub for all three EduGrid teaching kits. Find 
 
 > **Note:** No prior knowledge of electrical engineering is needed. These kits are designed for students aged 14–18 and are perfect for STEM weeks, science class, or Education for Sustainable Development.
 
-</div>
-</div>
-
 ---
 
 ## 🌀 Wind Kit — Documents
 
 <div class="resources-grid">
-<div class="resource-card">
-<h3>📘 Teacher Workbook with Solutions</h3>
-<p>Lesson plan, background theory, and answer guide for teachers.</p>
-<p>
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> |
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>
-</p>
-</div>
-<div class="resource-card">
-<h3>🎓 Classroom Presentation</h3>
-<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
-<p>
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-presentation-Wind-Energy.pptx">🇬🇧 English (PPTX)</a> |
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-presentation-Wind-Energy.pptx">🇩🇪 German (PPTX)</a>
-</p>
-</div>
-<div class="resource-card">
-<h3>📝 Student Worksheet</h3>
-<p>Printable worksheet for students to use during the lesson.</p>
-<p>
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Students-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> |
-  <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Students-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>
-</p>
-</div>
-<div class="resource-card">
-<h3>🖨️ Wind Turbine Model</h3>
-<p>Printable turbine model for students to assemble during the session.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Wind_Turbine_Model.pdf">Download (PDF)</a></p>
-</div>
+{% include resource-card.html title="📘 Teacher Workbook with Solutions" description="Lesson plan, background theory, and answer guide for teachers." links='<a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> | <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>' %}
+{% include resource-card.html title="🎓 Classroom Presentation" description="Ready-to-use PowerPoint slides for in-class delivery." links='<a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Teachers-presentation-Wind-Energy.pptx">🇬🇧 English (PPTX)</a> | <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Teachers-presentation-Wind-Energy.pptx">🇩🇪 German (PPTX)</a>' %}
+{% include resource-card.html title="📝 Student Worksheet" description="Printable worksheet for students to use during the lesson." links='<a href="https://edu-grid.org/wp-content/uploads/2026/02/ENGLISH-Students-Workbook-Wind-Energy.pdf">🇬🇧 English (PDF)</a> | <a href="https://edu-grid.org/wp-content/uploads/2026/02/DEUTSCH-Students-Workbook-Wind-Energy.pdf">🇩🇪 German (PDF)</a>' %}
+{% include resource-card.html title="🖨️ Wind Turbine Model" description="Printable turbine model for students to assemble during the session." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/Wind_Turbine_Model.pdf">Download (PDF)</a>' %}
 </div>
 
 ---
@@ -66,21 +38,9 @@ This is your centralised document hub for all three EduGrid teaching kits. Find 
 ## 💧 Hydro Kit — Documents
 
 <div class="resources-grid">
-<div class="resource-card">
-<h3>📘 Teacher Workbook with Solutions</h3>
-<p>Lesson plan, background theory, and answer guide for hydro energy.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Workbook_Hydro.pptx">Download (PPTX)</a></p>
-</div>
-<div class="resource-card">
-<h3>🎓 Classroom Presentation</h3>
-<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Presentation_Hydro.pptx">Download (PPTX)</a></p>
-</div>
-<div class="resource-card">
-<h3>📝 Student Worksheet</h3>
-<p>Printable worksheet for students to use during the lesson.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_Hydro.pdf">Download (PDF)</a></p>
-</div>
+{% include resource-card.html title="📘 Teacher Workbook with Solutions" description="Lesson plan, background theory, and answer guide for hydro energy." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Workbook_Hydro.pptx">Download (PPTX)</a>' %}
+{% include resource-card.html title="🎓 Classroom Presentation" description="Ready-to-use PowerPoint slides for in-class delivery." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/Teachers_Presentation_Hydro.pptx">Download (PPTX)</a>' %}
+{% include resource-card.html title="📝 Student Worksheet" description="Printable worksheet for students to use during the lesson." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_Hydro.pdf">Download (PDF)</a>' %}
 </div>
 
 ---
@@ -88,24 +48,9 @@ This is your centralised document hub for all three EduGrid teaching kits. Find 
 ## 🔆 Solar Kit — Documents
 
 <div class="resources-grid">
-<div class="resource-card">
-<h3>📘 Teacher Workbook with Solutions</h3>
-<p>Lesson plan, background theory, and answer guide for solar energy.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/TeachersWorksheets.pptx">Download (PPTX)</a></p>
-</div>
-<div class="resource-card">
-<h3>🎓 Classroom Presentation</h3>
-<p>Ready-to-use PowerPoint slides for in-class delivery.</p>
-<p>
-  <a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.1_PV-Basics.pptx">Chapter 1.1: PV Basics (PPTX)</a><br>
-  <a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.2_Connecting-PV-to-a-load-and-MPP.pptx">Chapter 1.2: Connecting PV &amp; MPP (PPTX)</a>
-</p>
-</div>
-<div class="resource-card">
-<h3>📝 Student Worksheet</h3>
-<p>Printable worksheet for students to use during the lesson.</p>
-<p><a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_PV.pdf">Download (PDF)</a></p>
-</div>
+{% include resource-card.html title="📘 Teacher Workbook with Solutions" description="Lesson plan, background theory, and answer guide for solar energy." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/TeachersWorksheets.pptx">Download (PPTX)</a>' %}
+{% include resource-card.html title="🎓 Classroom Presentation" description="Ready-to-use PowerPoint slides for in-class delivery." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.1_PV-Basics.pptx">Chapter 1.1: PV Basics (PPTX)</a><br><a href="https://edu-grid.org/wp-content/uploads/2025/07/PV-Education-HUB_Chapter-1.2_Connecting-PV-to-a-load-and-MPP.pptx">Chapter 1.2: Connecting PV &amp; MPP (PPTX)</a>' %}
+{% include resource-card.html title="📝 Student Worksheet" description="Printable worksheet for students to use during the lesson." links='<a href="https://edu-grid.org/wp-content/uploads/2025/07/Worksheet_PV.pdf">Download (PDF)</a>' %}
 </div>
 
 ---
