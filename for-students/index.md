@@ -6,11 +6,12 @@ permalink: /for-students/
 
 ## Student Resources
 
-<div class="page-hero">
+<!-- <div class="page-hero">
 <div class="page-hero-img">
 <img src="{{ '/assets/images/students-solar.jpg' | relative_url }}" alt="Students working with solar kits">
 </div>
-<div class="page-hero-text" markdown="1">
+<div class="page-hero-text" markdown="1"> -->
+![Image]({{ site.baseurl }}/assets/images/students-solar.jpg)
 
 ## Welcome, Students!
 
@@ -44,9 +45,6 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
 
 > 💡 **TIP:** Don't have your worksheet yet? Request it from your teacher before diving in.
 
-</div>
-</div>
-
 ---
 
 ## Try it. Test it. Understand it.
@@ -54,27 +52,9 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
 **Our Kits**
 
 <div class="resources-grid">
-<div class="resource-card">
-<h3>🌀 Wind</h3>
-<p>Build your own turbine and explore lift, drag, and optimal blade design.</p>
-<a href="{{ '/student-wind-landing/' | relative_url }}">Learn More</a>
-</div>
-<div class="resource-card">
-<h3>💧 Hydro</h3>
-<p>Generate power from falling water and investigate efficiency with your own mini dam.</p>
-<a href="{{ '/student-hydro-landing/' | relative_url }}">Learn More</a>
-</div>
-<div class="resource-card">
-<h3>🔆 Solar</h3>
-<p>Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage.</p>
-<a href="{{ '/student-solar-landing/' | relative_url }}">Learn More</a>
-</div>
-<div class="resource-card">
-<h3>⚡ Storage</h3>
-<p>Coming soon...</p>
-</div>
-<div class="resource-card">
-<h3>🔋 Battery</h3>
-<p>Coming soon...</p>
-</div>
+{% include resource-card.html title="🌀 Wind" description="Build your own turbine and explore lift, drag, and optimal blade design." links='<a href="/for-students/wind-lab/">Open Wind Lab</a>' %}
+{% include resource-card.html title="💧 Hydro" description="Generate power from falling water and investigate efficiency with your own mini dam." links='<a href="/for-students/hydro-lab/">Open Hydro Lab</a>' %}
+{% include resource-card.html title="🔆 Solar" description="Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage." links='<a href="/for-students/solar-lab/">Open Solar Lab</a>' %}
+{% include resource-card.html title="⚡ Storage" description="Coming soon..." %}
+{% include resource-card.html title="🔋 Battery" description="Coming soon..." %}
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /privacy-policy/
+permalink: /legal/privacy-policy/
 ---
 
 ## Privacy Policy
@@ -29,4 +29,4 @@ Email: info@edu-grid.org
 
 ---
 
-*See also our [Imprint](/imprint/).*
+*See also our [Imprint](/legal/imprint/) and [Cookie Policy](/legal/cookie-policy/).*

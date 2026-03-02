@@ -43,14 +43,16 @@ defaults:
 navigation:
   - title: About Us
     url: /about/
-  - title: Teaching Kits
-    url: /teaching-kits/
-  - title: For Students
-    url: /for-students/
+  - title: Hardware Kits
+    url: /hardware-kits/
   - title: For Teachers
     url: /for-teachers/
-  - title: Contact
-    url: /contact/
+  - title: For Students
+    url: /for-students/
+  - title: Blog
+    url: /blog/
+  - title: Get Involved
+    url: /get-involved/support-us/
 
 # Site settings
 email: contact@edu-grid.org

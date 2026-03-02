@@ -1,7 +1,29 @@
 ---
 layout: page
-title: Student Solar Worksheet
-permalink: /solar-student-workbook/
+title: Solar Lab
+permalink: /for-students/solar-lab/
+---
+
+## ☀️ Solar Teaching Kit
+
+*Start your hands-on learning adventure*
+
+This page will guide you in learning about solar (photovoltaic) energy using the **Solar Teaching Kit**.
+
+### Learn About Solar Energy
+
+Get ready to discover how sunlight is converted into electricity and how we can use that clean energy to power devices and entire communities.
+
+You will work with the **Solar Teaching Kit** — including real solar panels, a potentiometer box, and measuring instruments — and complete exciting hands-on experiments in your classroom.
+
+---
+
+### 📄 Interactive Workbook
+
+Work through the chapters below to follow along during the lesson. Each chapter includes activities, explanations, and space for your answers and observations.
+
+> 📌 **Note:** Please use either a printed version or a tablet-based digital version of the Student Worksheet to take notes and write down your calculations during the lesson!
+
 ---
 
 <div class="accordion-page">
@@ -661,28 +683,6 @@ Use the chart to assign labels to each mode, then fill in the energy consumed (r
 
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.accordion-header').forEach(function(header) {
-    header.addEventListener('click', function() {
-      var body = this.nextElementSibling;
-      var icon = this.querySelector('.accordion-icon');
-      var isHidden = body.style.display === 'none';
+{% include accordion-script.html %}
 
-      document.querySelectorAll('.accordion-item').forEach(function(item) {
-        item.querySelector('.accordion-body').style.display = 'none';
-        item.querySelector('.accordion-icon').textContent = '▶';
-        item.querySelector('.accordion-header').removeAttribute('data-expanded');
-      });
-
-      if (isHidden) {
-        body.style.display = '';
-        icon.textContent = '▼';
-        this.setAttribute('data-expanded', 'true');
-      }
-    });
-  });
-});
-</script>
-
-[← Back to Student Solar Landing](/student-solar-landing/)
+[← Back to Student Hub](/for-students/)
