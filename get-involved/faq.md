@@ -7,7 +7,7 @@ permalink: /get-involved/faq/
 ## Frequently Asked Questions
 
 **How can I give feedback?**  
-Please provide your feedback via the [contact form](/get-involved/contact/).
+Please provide your feedback via the [contact form](/get-involved/contact/){: .btn .btn-outline}.
 
 **What devices do students need?**  
 A PC, cell phone, tablet or laptop with a modern browser (Chrome, Firefox, Edge) is sufficient. You can also print out the entire worksheet and give the lecture without access to the website.

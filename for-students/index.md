@@ -52,9 +52,9 @@ Grab your Student Kit, roll up your sleeves, and let's power the planet—one ex
 **Our Kits**
 
 <div class="resources-grid">
-{% include resource-card.html title="🌀 Wind" description="Build your own turbine and explore lift, drag, and optimal blade design." links='<a href="/for-students/wind-lab/">Open Wind Lab</a>' %}
-{% include resource-card.html title="💧 Hydro" description="Generate power from falling water and investigate efficiency with your own mini dam." links='<a href="/for-students/hydro-lab/">Open Hydro Lab</a>' %}
-{% include resource-card.html title="🔆 Solar" description="Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage." links='<a href="/for-students/solar-lab/">Open Solar Lab</a>' %}
+{% include resource-card.html title="🌀 Wind" description="Build your own turbine and explore lift, drag, and optimal blade design." links='[Open Wind Lab](/for-students/wind-lab/){: .btn .btn-outline}' %}
+{% include resource-card.html title="💧 Hydro" description="Generate power from falling water and investigate efficiency with your own mini dam." links='[Open Hydro Lab](/for-students/hydro-lab/){: .btn .btn-outline}' %}
+{% include resource-card.html title="🔆 Solar" description="Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage." links='[Open Solar Lab](/for-students/solar-lab/){: .btn .btn-outline}' %}
 {% include resource-card.html title="⚡ Storage" description="Coming soon..." %}
 {% include resource-card.html title="🔋 Battery" description="Coming soon..." %}
 </div>
