@@ -12,7 +12,7 @@ title: Home
 
 Open-source, 3D-printable kits and textbooks from TU Munich that turn every classroom into a hands-on photovoltaic, wind, hydro, grid and storage energy lab, empowering students to become renewable-power innovators.
 
-<a href="{{ '/hardware-kits/' | relative_url }}" class="btn btn-primary">Explore Our Kits</a>
+[Explore Our Kits]({{ '/hardware-kits/' | relative_url }}){: .btn .btn-primary}
 
 </div>
 <div class="hero-image">
