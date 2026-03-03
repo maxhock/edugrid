@@ -1,19 +1,19 @@
 /* =========================================
    EduGrid Design System
-   Matching edu-grid.org (Elementor/Hello-Biz theme)
-   Primary: #437DC8 | Secondary: #28418C | Accent: #81B9F9
-   Fonts: Varela Round (headings) + Montserrat (body)
+   Inspired by digital-democracy.org
+   Primary: #3333FF | Dark: #000033 | Accent: #95d2e5
+   Fonts: Rubik (headings/nav) + Montserrat (body)
    ========================================= */
 
 :root {
-    --color-primary: #437DC8;
-    --color-secondary: #28418C;
-    --color-accent: #81B9F9;
+    --color-primary: #3333FF;
+    --color-secondary: #000033;
+    --color-accent: #95d2e5;
     --color-text: #353535;
     --color-bg: #FFFEFE;
     --color-bg-light: #F9F9F9;
     --color-bg-mid: #E9E9E9;
-    --font-heading: 'Varela Round', sans-serif;
+    --font-heading: 'Rubik', 'Varela Round', sans-serif;
     --font-body: 'Montserrat', sans-serif;
 }
 
@@ -37,7 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.2;
     color: var(--color-secondary);
     margin-bottom: 1rem;
@@ -87,12 +87,14 @@ hr {
 }
 
 blockquote {
-    border-left: 4px solid var(--color-accent);
-    padding: 0.75rem 1.25rem;
-    background: #f0f6ff;
-    border-radius: 0 6px 6px 0;
+    border-left: 4px solid var(--color-primary);
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    background: transparent;
+    border-radius: 0;
     margin: 1.5rem 0;
     font-style: normal;
+    color: var(--color-primary);
+    font-weight: 300;
 }
 
 /* Tables */
@@ -132,13 +134,13 @@ table tbody > tr:nth-child(odd) > td {
    HEADER
    ========================================= */
 .site-header {
-    background: linear-gradient(130deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    background: #000033;
     color: white;
     padding: 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 8px rgba(67, 125, 200, 0.25);
+    box-shadow: 0 2px 8px rgba(0, 0, 51, 0.4);
 }
 
 .header-content {
@@ -151,7 +153,7 @@ table tbody > tr:nth-child(odd) > td {
 .site-title {
     font-family: var(--font-heading);
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -173,17 +175,18 @@ table tbody > tr:nth-child(odd) > td {
     font-family: var(--font-body);
     font-size: 0.95rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
-    padding: 0.5rem 1.1rem;
-    border-radius: 4px;
-    transition: background-color 0.25s, color 0.25s;
+    padding: 0.4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 4px;
+    transition: background-color 0.2s, color 0.2s;
     letter-spacing: 0.01em;
 }
 
 .site-nav a:hover,
 .site-nav a.active {
-    background-color: rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
     text-decoration: none;
 }
@@ -307,7 +310,7 @@ table tbody > tr:nth-child(odd) > td {
    HERO
    ========================================= */
 .hero {
-    background: linear-gradient(130deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    background: #000033;
     color: white;
     padding: 6rem 0 5rem;
     text-align: center;
@@ -356,12 +359,12 @@ table tbody > tr:nth-child(odd) > td {
     font-size: 1.1rem;
     color: var(--color-primary);
     margin-bottom: 2.5rem;
-    font-style: italic;
+    font-style: normal;
     font-weight: 300;
-    padding: 1rem 1.5rem;
-    border-left: 4px solid var(--color-accent);
-    background: #f0f6ff;
-    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    border-left: 4px solid var(--color-primary);
+    background: transparent;
+    border-radius: 0;
 }
 
 .section-subtitle {
@@ -372,6 +375,25 @@ table tbody > tr:nth-child(odd) > td {
     letter-spacing: 0.08em;
     font-size: 0.85rem;
     margin-bottom: 0.5rem;
+}
+
+.mission-section {
+    padding: 2rem 0 1rem;
+    position: relative;
+}
+
+.mission-statement {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-weight: 300;
+    font-size: 1.4em;
+    text-align: left;
+    border: none;
+    margin: 1.5rem auto;
+    padding: 0 1rem 0 1.5rem;
+    border-left: 6px solid var(--color-primary);
+    max-width: 56rem;
+    position: relative;
 }
 
 .cta-links {
@@ -405,8 +427,8 @@ table tbody > tr:nth-child(odd) > td {
 }
 
 .btn-primary:hover {
-    background-color: var(--color-secondary);
-    border-color: var(--color-secondary);
+    background-color: #2222cc;
+    border-color: #2222cc;
     color: white;
     text-decoration: none;
 }
@@ -547,11 +569,11 @@ table tbody > tr:nth-child(odd) > td {
    FOOTER
    ========================================= */
 .site-footer {
-    background-color: var(--color-bg);
-    color: var(--color-text);
+    background-color: #000031;
+    color: rgba(255, 255, 255, 0.8);
     padding: 4rem 0 2rem;
     margin-top: 4rem;
-    border-top: 1px solid var(--color-bg-mid);
+    border-top: none;
 }
 
 .footer-content {
@@ -565,31 +587,32 @@ table tbody > tr:nth-child(odd) > td {
 .footer-brand .footer-title {
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    font-weight: 300;
-    color: var(--color-primary);
+    font-weight: 500;
+    color: white;
     text-decoration: none;
     display: block;
     margin-bottom: 0.5rem;
 }
 
 .footer-brand .footer-title:hover {
-    color: var(--color-secondary);
+    color: var(--color-accent);
     text-decoration: none;
 }
 
 .footer-brand p {
-    color: var(--color-primary);
+    color: rgba(255, 255, 255, 0.7);
     font-style: italic;
     font-weight: 300;
     font-size: 0.95rem;
 }
 
 .footer-links p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
-    color: var(--color-secondary);
+    color: white;
     margin-bottom: 0.75rem;
     font-family: var(--font-heading);
+    text-transform: uppercase;
 }
 
 .footer-links ul {
@@ -602,23 +625,24 @@ table tbody > tr:nth-child(odd) > td {
 }
 
 .footer-links a {
-    color: var(--color-text);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 300;
     transition: color 0.2s;
+    display: block;
 }
 
 .footer-links a:hover {
-    color: var(--color-primary);
+    color: white;
     text-decoration: none;
 }
 
 .footer-bottom {
-    border-top: 1px solid var(--color-bg-mid);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding-top: 1.25rem;
     text-align: center;
-    color: var(--color-text);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 300;
 }
@@ -675,11 +699,12 @@ table tbody > tr:nth-child(odd) > td {
 
 /* =========================================
    HOME PAGE — HERO WITH IMAGE (two-column)
-   Matching live site's flex-hero layout
+   Matching digital-democracy.org's full-height slideshow layout
    ========================================= */
 .hero {
     /* Override single-column default */
     padding: 0;
+    background: #000033;
 }
 
 .hero-inner {
@@ -696,6 +721,7 @@ table tbody > tr:nth-child(odd) > td {
 }
 
 .hero-text h1 {
+    font-family: var(--font-heading);
     font-size: 2.8rem;
     font-weight: 300;
     color: white;
@@ -710,6 +736,7 @@ table tbody > tr:nth-child(odd) > td {
     line-height: 1.7;
     margin-bottom: 2rem;
     max-width: 520px;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .hero-image {
@@ -723,13 +750,12 @@ table tbody > tr:nth-child(odd) > td {
     max-width: 520px;
     height: 380px;
     object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 /* =========================================
    HOME PAGE — CTA / TEACHING SECTION (50/50)
-   Matching live site's showcase section
+   Matching digital-democracy.org's showcase section
    ========================================= */
 .home-cta-section {
     background: var(--color-bg-light);
@@ -751,8 +777,7 @@ table tbody > tr:nth-child(odd) > td {
     width: 100%;
     height: 380px;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 8px 28px rgba(67, 125, 200, 0.15);
+    box-shadow: 0 8px 28px rgba(0, 0, 51, 0.2);
 }
 
 .home-cta-text {
@@ -825,6 +850,8 @@ table tbody > tr:nth-child(odd) > td {
     width: auto;
     display: block;
     filter: brightness(1);
+    background-color: var(--color-primary);
+    padding: 0.375rem 0.625rem;
 }
 
 .site-logo:hover {
