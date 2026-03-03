@@ -43,7 +43,7 @@ A well-designed syllabus can outlive the greatest teacher, but in many classroom
 
 ## Our Solution
 
-We democratise hands-on renewable-energy education by combining open-source curricula with DIY experiment kits to have real impact in the education. [More About Us]({{ '/about/' | relative_url }})
+We democratise hands-on renewable-energy education by combining open-source curricula with DIY experiment kits to have real impact in the education. [More About Us]({{ '/about/' | relative_url }}){: .btn .btn-outline}
 
 </div>
 </div>
@@ -58,9 +58,9 @@ We democratise hands-on renewable-energy education by combining open-source curr
 <p class="section-subtitle">Our Kits</p>
 
 <div class="resources-grid">
-{% include resource-card.html title="🌀 Wind" description="Build your own turbine and explore lift, drag, and optimal blade design." links='<a href="/for-students/">Students</a> | <a href="/for-teachers/">Teachers</a>' %}
-{% include resource-card.html title="💧 Hydro" description="Generate power from falling water and investigate efficiency with your own mini dam." links='<a href="/for-students/">Students</a> | <a href="/for-teachers/">Teachers</a>' %}
-{% include resource-card.html title="🔆 Solar" description="Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage." links='<a href="/for-students/">Students</a> | <a href="/for-teachers/">Teachers</a>' %}
+{% include resource-card.html title="🌀 Wind" description="Build your own turbine and explore lift, drag, and optimal blade design." links='[Students](/for-students/){: .btn .btn-outline} [Teachers](/for-teachers/){: .btn .btn-outline}' %}
+{% include resource-card.html title="💧 Hydro" description="Generate power from falling water and investigate efficiency with your own mini dam." links='[Students](/for-students/){: .btn .btn-outline} [Teachers](/for-teachers/){: .btn .btn-outline}' %}
+{% include resource-card.html title="🔆 Solar" description="Discover how sunlight turns into electricity. Experiment with angles, shading, and voltage." links='[Students](/for-students/){: .btn .btn-outline} [Teachers](/for-teachers/){: .btn .btn-outline}' %}
 {% include resource-card.html title="⚡ Storage" description="Coming soon..." %}
 {% include resource-card.html title="🔋 Battery" description="Coming soon..." %}
 </div>

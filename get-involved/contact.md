@@ -36,9 +36,9 @@ permalink: /get-involved/contact/
 
 ### Let's connect and talk about how we can help each other
 
-Want to know more about us? Find more here → [About Us](/about/)
+Want to know more about us? Find more here → [About Us](/about/){: .btn .btn-outline}
 
 **Contact Information:**
 
 - **Email:** {{ site.email }}
-- **GitHub:** [{{ site.github_username }}](https://github.com/{{ site.github_username }})
+- **GitHub:** [{{ site.github_username }}](https://github.com/{{ site.github_username }}){: .btn .btn-outline}
