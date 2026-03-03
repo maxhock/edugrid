@@ -24,6 +24,16 @@ Open-source, 3D-printable kits and textbooks from TU Munich that turn every clas
 </div>
 </div>
 
+<div class="mission-section">
+<div class="container">
+
+<blockquote class="mission-statement">
+EduGrid works in solidarity with students and teachers to use open-source technology to democratise renewable energy education
+</blockquote>
+
+</div>
+</div>
+
 <div class="home-cta-section">
 <div class="container">
 <div class="home-cta-inner">
